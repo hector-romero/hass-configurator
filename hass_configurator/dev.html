@@ -8,9 +8,9 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/3.4.93/css/materialdesignicons.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="style.css" media="screen">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.9.6/ace.js" type="text/javascript" charset="utf-8"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.9.6/ext-modelist.js" type="text/javascript" charset="utf-8"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.9.6/ext-language_tools.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.33.1/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.33.1/ext-modelist.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.33.1/ext-language_tools.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
   <div class="preloader-background">
@@ -107,6 +107,7 @@
         <li><a class="modal-trigger" href="#modal_exec_command">Execute shell command</a></li>
         <li><a onclick="toggle_hass_panels()">Toggle Home Assistant panel</a></li>
         <li><a onclick="generate_uuid()">Generate UUID</a></li>
+        <li><small>by H</small></li>
     </ul>
     <ul id="dropdown_menu_mobile" class="dropdown-content z-depth-4">
         <li><a onclick="localStorage.setItem('new_tab', true);window.open(window.location.origin+window.location.pathname, '_blank');">New tab</a></li>
@@ -129,6 +130,7 @@
         <li><a class="modal-trigger" href="#modal_exec_command">Execute shell command</a></li>
         <li><a onclick="toggle_hass_panels()">Toggle Home Assistant panel</a></li>
         <li><a onclick="generate_uuid()">Generate UUID</a></li>
+        <li><small>by H</small></li>
     </ul>
     <ul id="dropdown_gitmenu" class="dropdown-content z-depth-4">
         <li><a class="modal-trigger nowrap waves-effect" href="#modal_init">git init</a></li>
