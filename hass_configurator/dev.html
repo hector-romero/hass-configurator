@@ -2874,6 +2874,7 @@
     if (localStorage.hasOwnProperty("pochass")) {
         editor.setOptions(JSON.parse(localStorage.pochass));
         editor.setOptions({
+            scrollPastEnd: 0.5,
             enableBasicAutocompletion: true,
             enableSnippets: true,
             useWorker: false
